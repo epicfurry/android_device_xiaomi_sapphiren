@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "SystemUIResSapphire",
+    name: "SystemUIResSapphiren",
     device_specific: true,
 }

@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "FrameworksResSapphire",
+    name: "FrameworksResSapphiren",
     device_specific: true,
 }

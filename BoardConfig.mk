@@ -5,12 +5,12 @@
 #
 
 # Inherit from the proprietary version
-include vendor/xiaomi/sapphire/BoardConfigVendor.mk
+include vendor/xiaomi/sapphiren/BoardConfigVendor.mk
 
 # Inherit from proprietary files for miuicamera
--include device/xiaomi/miuicamera-sapphire/BoardConfig.mk
+-include device/xiaomi/miuicamera-sapphiren/BoardConfig.mk
 
-DEVICE_PATH := device/xiaomi/sapphire
+DEVICE_PATH := device/xiaomi/sapphiren
 KERNEL_PATH := $(DEVICE_PATH)-kernel
 
 TARGET_KERNEL_CLANG_VERSION := neutron-clang
@@ -100,8 +100,8 @@ TARGET_GLOBAL_OPTIMIZATION := O3
 TARGET_GLOBAL_THINLTO := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_sapphire
-TARGET_RECOVERY_DEVICE_MODULES := init_sapphire
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_sapphiren
+TARGET_RECOVERY_DEVICE_MODULES := init_sapphiren
 
 # Kernel prebuilt
 BOARD_USES_DT := true

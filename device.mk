@@ -20,10 +20,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_ven
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Inherit from the proprietary version
-$(call inherit-product, vendor/xiaomi/sapphire/sapphire-vendor.mk)
+$(call inherit-product, vendor/xiaomi/sapphiren/sapphiren-vendor.mk)
 
 # Call the MiuiCamera setup
-$(call inherit-product-if-exists, device/xiaomi/miuicamera-sapphire/device.mk)
+$(call inherit-product-if-exists, device/xiaomi/miuicamera-sapphiren/device.mk)
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
@@ -352,7 +352,7 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qti.kernel.rc \
     init.recovery.qcom.rc \
-    init.sapphire.perf.rc \
+    init.sapphiren.perf.rc \
     init.target.rc \
     init.xiaomi.rc \
     ueventd.qcom.rc
@@ -370,7 +370,7 @@ PRODUCT_PACKAGES += \
     init.qti.early_init.sh \
     init.qti.kernel.sh \
     init.qti.write.sh \
-    init.sapphire_perf.sh \
+    init.sapphiren_perf.sh \
     system_dlkm_modprobe.sh \
     vendor_modprobe.sh
 
@@ -479,11 +479,11 @@ PRODUCT_PACKAGES += \
     TelephonyResCommon \
     WifiResCommon \
     WifiResTarget \
-    FrameworksResSapphire \
-    SettingsProviderResSapphire \
-    SettingsResSapphire \
-    SystemUIResSapphire \
-    WifiResSapphire
+    FrameworksResSapphiren \
+    SettingsProviderResSapphiren \
+    SettingsResSapphiren \
+    SystemUIResSapphiren \
+    WifiResSapphiren
 
 # Overlays Lineage
 DEVICE_PACKAGE_OVERLAYS += \

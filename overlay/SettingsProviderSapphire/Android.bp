@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "SettingsProviderResSapphire",
+    name: "SettingsProviderResSapphiren",
     device_specific: true
 }

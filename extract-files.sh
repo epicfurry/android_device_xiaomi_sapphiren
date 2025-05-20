@@ -7,7 +7,7 @@
 
 set -e
 
-DEVICE=sapphire
+DEVICE=sapphiren
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
